@@ -23,11 +23,9 @@ To manipulate affected databases, edit `sqlms.datasources` parameter values in `
 
 # Documentation
 
-## Swaggeri dokumentatsioon
-
 The application creates its own Swagger documentation, which, on your local computer by default, can be found at [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html).
 
 
-## Licence
+# Licence
 
 See licence [here](LICENCE.md).
