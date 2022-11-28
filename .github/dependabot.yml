@@ -6,12 +6,6 @@ updates:
     schedule:
       interval: "daily"
       time: "08:00"
- 
-  - package-ecosystem: "composer"
-    directory: "/"
-    schedule:
-      interval: "daily"
-      time: "08:00"
       
   - package-ecosystem: "github-actions"
     directory: "/.github/"
