@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  resql:
+    container_name: resql
+    build:
+      context: .
+    ports:
+      - 8082:8082
+    networks:
+      - resql
+
+networks:
+  resql:
+    driver: bridge

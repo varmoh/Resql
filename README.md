@@ -8,10 +8,13 @@ Every query consists of a separate `.sql` file which can be consumed as a REST c
 
 # How to use 
 
-## Initial setup
-Run the following command in your local computer / virtual server
+## Docker
 
-```mvn spring-boot:run```
+To run the application using docker run:
+
+```
+docker-compose up -d
+```
 
 ## Creating a WAR file
 Run the following command in your local computer / virtual server
