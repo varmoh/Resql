@@ -16,6 +16,8 @@ To run the application using docker run:
 docker-compose up -d
 ```
 
+If you get an error about missing dependency `id-log-1.0.0-SNAPSHOT` then run `docker-compose build` and `docker-compose up -d` again.
+
 ## Creating a WAR file
 Run the following command in your local computer / virtual server
 
